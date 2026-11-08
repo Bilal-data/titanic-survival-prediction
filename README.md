@@ -40,6 +40,7 @@ Random Forest classifier (100 trees) on 6 features: `pclass`, `sex_num`, `age`, 
 - The test set has only 179 passengers and a single split was used, so accuracy could move by several points with a different split.
 - Missing ages were filled with one value, which shrinks the real spread of ages.
 - No hyperparameter tuning and no cross-validation yet.
+- Re-running on five other random splits gave accuracy between about 78 and 83 percent (average about 80), so the result is reasonably stable but not exact.
 
 ## Tools
 
